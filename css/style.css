@@ -20,3 +20,53 @@ header {
  display: flex;
  flex-direction: column;
 }
+
+body video {
+    align-self: center;
+    display: flex;
+}
+
+.middle {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.middle h1 {
+    color: white;
+    font-weight: 300;
+    font-size: 42px;
+}
+
+.middle p {
+    color: gray;
+    font-size: 21px;   
+}
+
+.middle img {
+    margin-top: 20px;
+}
+
+footer {
+    display: flex;
+    flex-direction: column;
+}
+
+footer h1 {
+    color: white;
+    align-self: center;
+}
+
+footer p, footer p a {
+    color: aquamarine;
+    align-self: center;
+}
+
+footer h6 {
+    font-size: 16px;
+    color: gray;
+    position: fixed;
+    right: 25px;
+    bottom: 0;
+}
